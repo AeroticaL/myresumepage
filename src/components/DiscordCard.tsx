@@ -7,7 +7,7 @@ import Image from 'next/image'
 const DiscordCard = ({ section }) => {
 	return (
 		<motion.a
-			href="https://discord.gg/5Gzs6mxS"
+			href="https://discord.com/users/264852636375842816/"
 			target="_blank"
 			rel="noreferrer"
 			animate={{ opacity: ['all', 'contact'].includes(section) ? 1 : 0.3 }}

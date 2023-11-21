@@ -6,7 +6,7 @@ const TwitterCard = ({ section }) => {
 			href="https://twitter.com/Aerotical_djaul"
 			target="_blank"
 			rel="noreferrer"
-			animate={{ opacity: ['all', 'about', 'contact'].includes(section) ? 1 : 0.3 }}
+			animate={{ opacity: ['all', 'contact'].includes(section) ? 1 : 0.3 }}
 			className="rounded-3xl bg-[#000000] dark:saturate-000 dark:brightness-1000 flex justify-center items-center col-span-1 relative"
 			whileHover="groupHover"
 			variants={{

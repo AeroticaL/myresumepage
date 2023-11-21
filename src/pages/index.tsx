@@ -13,6 +13,7 @@ import OnlineCard from "@/components/OnlineCard";
 import TimeCard from "@/components/TimeCard";
 import LanguagesCard from "@/components/languages";
 import HobbiesCard from "@/components/hobbies";
+import WorkedWith from "@/components/WorkedWith";
 
 function Home() {
   const [section, setSection] = useState("all");
@@ -25,11 +26,14 @@ function Home() {
 			md:gap-5 mt-9 container mx-auto xl:px-60"
       >
         <IntroCard section={section} />
-        <MailCard section={section} />
+        <ToggleCard section={section} />
+        
         <LanguagesCard section={section} />
         <ArticleCard section={section} />
+        <WorkedWith section={section} />
+        <MailCard section={section} />
         <TwitterCard section={section} />
-        <ToggleCard section={section} />
+       
         <DiscordCard section={section} />
         <HobbiesCard section={section} />
         <OnlineCard section={section} />

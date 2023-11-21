@@ -15,7 +15,7 @@ const HobbiesCard = ({ section }) => {
 		
 			target="_blank"
 			rel="noreferrer"
-			animate={{ opacity: ['all', 'about', 'contact'].includes(section) ? 1 : 0.3 }}
+			animate={{ opacity: ['all', 'about'].includes(section) ? 1 : 0.3 }}
 			className="rounded-3xl bg-[#FF8C00] dark:saturate-000 dark:brightness-1000 flex justify-center items-center col-span-1 relative text-white"
 			whileHover="groupHover"
 			variants={{

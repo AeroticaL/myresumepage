@@ -34,9 +34,8 @@ const ArticleCard = ({ section }) => {
   <div className="lg:text-xl xl:text-2xl 2xl:mr-20 2xl:mt-7 font-nunito dark:text-gray-300">
 	
             {" "}
-             - Full Time Developer for babafinder.com, ahiddensociety.com (web scrapping, ML programs, web apps, bots, etc...)
+             - Full Time Developer (web scrapping, Machine Learning models, web apps, bots, etc...)
 			 
-			
 			<br />
 			<br />
 			- Software solution builder for many known companies and startups (Often bots, web apps, Reversed engineered apps, antibot solutions, etc...)

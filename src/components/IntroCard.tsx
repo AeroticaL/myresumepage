@@ -69,7 +69,7 @@ const IntroCard = ({ section }) => {
             {" "}
             Developer and student at{" "}
             <a
-              className="ml-1 underline-offset-2 underline focus:outline-none text-red-800"
+              className="ml-1 underline-offset-2 underline focus:outline-none text-green-500"
               href="https://www.univ-lille.fr/"
               rel="noreferrer"
               target="_blank"
@@ -95,7 +95,7 @@ const IntroCard = ({ section }) => {
             </a>{" "}
             as a full time developer and founder / developer of {" "}
             <a
-              className="ml-1 underline-offset-2 underline  font-bold focus:outline-none"
+              className="ml-1 underline-offset-2 underline  font-bold focus:outline-none text-green-500"
               href="https://www.tikeymanager.com/main"
               rel="noreferrer"
               target="_blank"

@@ -17,7 +17,7 @@ const OnlineCard = ({ section }) => {
       case "online":
         return ["online on discord", "bg-[#6DD2B7] dark:bg-[#35AC8C]"];
       case "offline":
-        return ["offline on discord", "bg-[#FFADC6] dark:bg-[#FF477E]"];
+        return ["offline on discord", "bg-[#F3474C] dark:bg-[#FF477E]"];
     }
   }, [data]);
 

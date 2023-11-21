@@ -39,7 +39,7 @@ const ArticleCard = ({ section }) => {
 			
 			<br />
 			<br />
-			- Software solution builder for many known companies and startups (Often bots, web apps, Reversed engineered apps, antibots solutions, etc...)
+			- Software solution builder for many known companies and startups (Often bots, web apps, Reversed engineered apps, antibot solutions, etc...)
 			mainly in golang, python, and javascript.
 
 			

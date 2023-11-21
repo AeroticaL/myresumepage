@@ -38,6 +38,7 @@ const OnlineCard = ({ section }) => {
         </div>
       </div>
     </motion.div>
+    
   );
 };
 

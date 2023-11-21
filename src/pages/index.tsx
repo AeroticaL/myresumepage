@@ -12,6 +12,7 @@ import MapCard from "@/components/MapCard";
 import OnlineCard from "@/components/OnlineCard";
 import TimeCard from "@/components/TimeCard";
 import LanguagesCard from "@/components/languages";
+import HobbiesCard from "@/components/hobbies";
 
 function Home() {
   const [section, setSection] = useState("all");
@@ -30,10 +31,11 @@ function Home() {
         <TwitterCard section={section} />
         <ToggleCard section={section} />
         <DiscordCard section={section} />
-        <SpotifyCard section={section} />
+        <HobbiesCard section={section} />
         <OnlineCard section={section} />
         <MapCard section={section} />
-        
+        <TimeCard section={section} />
+       
       </div>
       
      <br />

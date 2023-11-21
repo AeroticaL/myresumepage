@@ -54,9 +54,9 @@ const IntroCard = ({ section }) => {
           <div className="text-xl md:text-4xl 2xl:text-4xl 2xl:mt-16 m-1 md:ml-9 ml-5 md:m-8 font-nunito font-bold d">
          
           
-          <div style={{ textAlign: "center" }}>
+          <div style={{ textAlign: 'center' }}>
           
-          <p style={{ marginRight: "10px",  fontSize: "40px", fontWeight: "bold"}}>Hi, I"m Mehdi</p>
+          <p style={{ marginRight: '10px',  fontSize: '40px', fontWeight: 'bold'}}>Hi, I&apos;m Mehdi</p>
             
         <Image src={mehdi}  width={125} height={175} className="rounded-full" />
         </div>

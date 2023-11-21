@@ -7,6 +7,11 @@ const App = ({ Component, pageProps }) => {
 	return (
 		
 		<ThemeProvider attribute="class">
+
+			<Script
+				src="https://kit.fontawesome.com/4c273e6d3b.js"
+				crossOrigin="anonymous"
+			/>
 			<Component {...pageProps} />
 		</ThemeProvider>
 	)

@@ -28,7 +28,7 @@ const MapCard = ({ section }) => {
       target="_blank"
       rel="noreferrer"
       animate={{ opacity: ["all", "about"].includes(section) ? 1 : 0.3 }}
-      className="rounded-3xl bg-[#FFFFFF] dark:saturate-1000 dark:brightness-1000 flex justify-center items-center col-span-1 relative"
+      className="rounded-3xl bg-gray-200 dark:saturate-1000 dark:brightness-10000 flex justify-center items-center col-span-1 relative"
       whileHover="groupHover"
       //use mapspfp as a background image
 

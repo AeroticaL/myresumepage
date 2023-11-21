@@ -5,8 +5,8 @@ import mehdi from "@images/mehdi.png";
 const IntroCard = ({ section }) => {
   return (
     <motion.div
-      className="md:col-span-2 bg-white dark:bg-gray-900
-			 rounded-3xl text-gray-600 dark:text-gray-300 aspect-2/1 pb-4 md:pb-0"
+      className="md:col-span-2 bg-gray-300 dark:bg-gray-900
+			 rounded-3xl text-gray-700 dark:text-gray-100 aspect-2/1 pb-4 md:pb-0"
       whileHover="groupHover"
       animate={{ opacity: ["all"].includes(section) ? 1 : 1 }}
       variants={{
@@ -51,12 +51,12 @@ const IntroCard = ({ section }) => {
          
           
           
-          <div className="text-3xl md:text-4xl 2xl:text-4xl 2xl:mt-16 m-6 md:ml-6 ml-5 md:m-8 font-nunito font-bold">
+          <div className="text-xl md:text-4xl 2xl:text-4xl 2xl:mt-16 m-1 md:ml-9 ml-5 md:m-8 font-nunito font-bold d">
          
           
           <div style={{ textAlign: 'center' }}>
           
-          <p style={{ marginRight: '10px' }}>Hi, I'm mehdi</p>
+          <p style={{ marginRight: '10px',  fontSize: '40px', fontWeight: 'bold'}}>Hi, I'm Mehdi</p>
             
         <Image src={mehdi}  width={125} height={175} className="rounded-full" />
         </div>
@@ -65,7 +65,7 @@ const IntroCard = ({ section }) => {
         </div>
         
         <div className="flex flex-col ml-5 justify-center 2xl:mt-10 sm:-mt-6 sm:ml-8 md:ml-6">
-          <div className="lg:text-xl xl:text-2xl 2xl:mr-20 font-nunito dark:text-gray-300">
+          <div className="lg:text-xl xl:text-2xl 2xl:mr-20 font-nunito font-bold dark:text-gray-300">
             {" "}
             Developer and student at{" "}
             <a
@@ -80,7 +80,7 @@ const IntroCard = ({ section }) => {
           </div>
           
 
-          <div className="lg:text-xl xl:text-2xl 2xl:mr-20 font-nunito dark:text-gray-300">
+          <div className="lg:text-xl xl:text-2xl 2xl:mr-20 font-nunito font-bold dark:text-gray-300">
             {" "}
             currently working at {" "}
             <a
@@ -94,7 +94,7 @@ const IntroCard = ({ section }) => {
             </a>{" "}
             as a full time developer and co founder and developer of {" "}
             <a
-              className="ml-1 underline-offset-2 underline focus:outline-none"
+              className="ml-1 underline-offset-2 underline  font-bold focus:outline-none"
               href="https://www.tikeymanager.com/main"
               rel="noreferrer"
               target="_blank"

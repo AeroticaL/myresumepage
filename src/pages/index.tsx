@@ -11,11 +11,12 @@ import { useState } from "react";
 import MapCard from "@/components/MapCard";
 import OnlineCard from "@/components/OnlineCard";
 import TimeCard from "@/components/TimeCard";
+import LanguagesCard from "@/components/languages";
 
 function Home() {
   const [section, setSection] = useState("all");
   return (
-    <main className="bg-gray-0 dark:bg-gray-100">
+    <main className="bg-gray-500 dark:bg-gray-800">
     <div className="flex flex-col m-1 font-nunito">
       <NavBar setSection={setSection} />
       <div
@@ -24,23 +25,19 @@ function Home() {
       >
         <IntroCard section={section} />
         <MailCard section={section} />
-      
-        <TwitterCard section={section} />
+        <LanguagesCard section={section} />
         <ArticleCard section={section} />
+        <TwitterCard section={section} />
         <ToggleCard section={section} />
         <DiscordCard section={section} />
         <SpotifyCard section={section} />
         <OnlineCard section={section} />
-        
         <MapCard section={section} />
-        <TimeCard section={section} />
+        
       </div>
       
-      <div className="flex justify-center mt-10">
-        <a href="">
-          <img src="https://media.tenor.com/GLM6QoguRswAAAAd/cristiano-ronaldo.gif" />
-        </a>
-        </div>
+     <br />
+      <br />
     </div>
     </main>
   );

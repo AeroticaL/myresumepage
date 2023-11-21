@@ -11,7 +11,7 @@ const MailCard = ({ section }) => {
       whileHover="groupHover"
       variants={{
         groupHover: {
-          scale: 1.11,
+          scale: 1.04,
           transition: {
             duration: 0.2,
             ease: "anticipate"

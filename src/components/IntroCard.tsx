@@ -69,7 +69,7 @@ const IntroCard = ({ section }) => {
             {" "}
             Developer and student at{" "}
             <a
-              className="ml-1 underline-offset-2 underline focus:outline-none"
+              className="ml-1 underline-offset-2 underline focus:outline-none text-red-800"
               href="https://www.univ-lille.fr/"
               rel="noreferrer"
               target="_blank"
@@ -84,15 +84,16 @@ const IntroCard = ({ section }) => {
             {" "}
             currently working at {" "}
             <a
-              className="ml-1 underline-offset-2 underline focus:outline-none"
+              className="ml-1 underline-offset-2 underline focus:outline-none text-green-500"
               href="https://whop.com/arcana-ltd/"
               rel="noreferrer"
               target="_blank"
+              
             >
 
                 Arcana 
             </a>{" "}
-            as a full time developer and co founder and developer of {" "}
+            as a full time developer and founder / developer of {" "}
             <a
               className="ml-1 underline-offset-2 underline  font-bold focus:outline-none"
               href="https://www.tikeymanager.com/main"

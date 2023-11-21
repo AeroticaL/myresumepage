@@ -27,7 +27,7 @@ const DiscordCard = ({ section }) => {
 				<img src="/images/staticdiscordspinner.png" className="absolute w-72 md:w-72 lg:w-72 xl:w-[500px] xl:scale-125 group-hover:opacity-0" />
 				<img src="/images/discordspinner.gif" className="absolute w-72 md:w-72 lg:w-72 xl:w-[500px] xl:scale-125 group-hover:opacity-100 opacity-0" />
 			</div>
-			<ArrowCircleUpIcon className="absolute stroke-white dark:stroke-gray-900 bottom-0 right-0 m-2 md:mb-5 xl:m-5 
+			<ArrowCircleUpIcon className="absolute stroke-white dark:stroke-gray-100 bottom-0 right-0 m-2 md:mb-5 xl:m-5 
 			rotate-45 mb-2 mr-2 w-8 h-8 lg:w-14 lg:h-14 md:w-10 md:h-10 hover:text-white" />
 		</motion.a>
 	)

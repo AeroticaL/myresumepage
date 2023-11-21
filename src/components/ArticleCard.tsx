@@ -20,7 +20,7 @@ const ArticleCard = ({ section }) => {
 				},
 			}}
 			
-			className="relative flex bg-gray-200 rounded-3xl dark:bg-gray-900 bg-white col-span-2 aspect-2/1"
+			className="relative flex bg-gray-200 rounded-3xl dark:bg-gray-700 bg-white col-span-2 aspect-2/1"
 		>
 			<div className="text-3xl  md:text-4xl 2xl:text-4xl 2xl:mt-3 m-1 md:ml-1 ml-5 md:m-1 font-nunito font-bold">
 
@@ -34,16 +34,18 @@ const ArticleCard = ({ section }) => {
   <div className="lg:text-xl xl:text-2xl 2xl:mr-20 2xl:mt-7 font-nunito dark:text-gray-300">
 	
             {" "}
-             - Full Time Backend Developer for a company called 
+             - Full Time Backend Developer for Babafinder, aHiddenSociety
 			 
 			
-			<br />
-			<br />
-			- Freelance software solution builder for many known companies and startups such as sneakers bots, discord groups like {" "} 
 			
 			<br />
 			<br />
-			- Projects using Python,Golang NodeJS 
+			- Software solution builder for many known companies and startups (Often bots, web apps, Reversed engineered apps, antibots solutions, etc...)
+			mainly in golang, python, node js and javascript.
+
+			
+		
+			
 		</div>
   </div>
   <br />
@@ -53,7 +55,7 @@ const ArticleCard = ({ section }) => {
 
       
     </div>
-	<ArrowCircleUpIcon className="absolute stroke-white dark:stroke-gray-900 bottom-0 right-0 m-2 md:m-5 md:mb-5 xl:m-5 rotate-45 mb-2 mr-2 w-8 h-8 lg:w-14 lg:h-14 md:w-10 md:h-10" />
+	<ArrowCircleUpIcon className="absolute stroke-white dark:stroke-gray-100 bottom-0 right-0 m-2 md:m-5 md:mb-5 xl:m-5 rotate-45 mb-2 mr-2 w-8 h-8 lg:w-14 lg:h-14 md:w-10 md:h-10" />
 		</motion.a>
 	)
 }

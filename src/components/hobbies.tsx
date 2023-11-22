@@ -28,7 +28,7 @@ const HobbiesCard = ({ section }) => {
 				},
 			}}
             style={{
-                backgroundImage: 'url(\'https://pouch.jumpshare.com/preview/jtsjK1JWlGF9thT4ur_Zd6ZCDro3r1FjVBi_G2U3zeBi_SM5RzMOn8EkMAL1oLkGr00059JSd_oHS2ASEHl1SjGXhsuCrVWF-iQcZ5Dv5Hs\')', // Replace 'your-gif-url.gif' with the actual URL of your GIF
+                backgroundImage: 'url(\'https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDI2OW1iYWF0Z3BnYW1ib3o2MHVpNjczNzN5YjBjY2dicGc2d2FibSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/hComt8hkAXJi3657Mk/giphy.gif\')', // Replace 'your-gif-url.gif' with the actual URL of your GIF
                 backgroundSize: 'cover',
                 backgroundRepeat: 'no-repeat',
               }}
